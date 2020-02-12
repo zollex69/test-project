@@ -1,6 +1,8 @@
 <?php
+// include customizer
 require get_stylesheet_directory() . '/inc/customize/settings.php'; 
 
+// change title on post page
 function change_title( $title, $sep ) {
 
     if( is_single() ){
